@@ -30,7 +30,7 @@ document.getElementById('dec').addEventListener("click", function() { ud('.');})
 document.getElementById('add').addEventListener("click", function() { ud('+');});
 document.getElementById('subt').addEventListener("click", function() { ud('-');});
 document.getElementById('multi').addEventListener("click", function() { ud('*');});
-document.getElemenById('div').addEventListener("click", function() { ud('/');});
+document.getElementById('div').addEventListener("click", function() { ud('/');});
 
 document.getElementById('clear').addEventListener("click", function() { clc();});
 document.getElementById('ans').addEventListener("click", function() { ans();});
